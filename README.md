@@ -45,7 +45,7 @@ Note: Make sure you're logged into your GitHub account. If you don't have one, y
 Here's what you can customize in `config.js`:
 ```javascript
 // Basic Information
-valentineName: "Jade"                    // Your Valentine's name
+valentineName: "Justine"                    // Your Valentine's name
 pageTitle: "Will You Be My Valentine? 💝" // Browser tab title
 
 // Floating Background Elements
@@ -58,32 +58,32 @@ floatingEmojis: {
 questions: {
     first: {
         text: "Do you like me?",                   // First question
-        yesBtn: "Yes",                             // Yes button text
-        noBtn: "No",                               // No button text
-        secretAnswer: "I don't like you, I love you! ❤️"  // Hidden message
+        yesBtn: "OO",                             // Yes button text
+        noBtn: "YES",                               // No button text
+        secretAnswer: " Syempre, I love you! ❤️"  // Hidden message
     },
     second: {
         text: "How much do you love me?",          // Second question
-        startText: "This much!",                   // Text before percentage
+        startText: "Sobrang dami na hindi na kayang bilangin, sukatin, o ipaliwanag.",                   // Text before percentage
         nextBtn: "Next ❤️"                         // Next button text
     },
     third: {
         text: "Will you be my Valentine...?",      // Final question
         yesBtn: "Yes!",                            // Yes button text
-        noBtn: "No"                                // No button text
+        noBtn: "NO 😡"                                // No button text
     }
 }
 
 // Love Meter Messages
 loveMessages: {
-    extreme: "WOOOOW You love me that much?? 🥰🚀💝",  // Shows above 5000%
+    extreme: "WOOOOW You love me that much Haaa (kinilig)?? 🥰🚀💝",  // Shows above 5000%
     high: "To infinity and beyond! 🚀💝",              // Shows above 1000%
     normal: "And beyond! 🥰"                           // Shows above 100%
 }
 
 // Final Celebration
 celebration: {
-    title: "Yay! I'm the luckiest person...",     // Celebration title
+    title: "Yay! I love you so much my love...",     // Celebration title
     message: "Now come get your gift...",          // Celebration message
     emojis: "🎁💖🤗💝💋❤️💕"                        // Celebration emojis
 }
@@ -146,7 +146,7 @@ Want to make it extra special with your own romantic song? Follow these steps to
 music: {
     enabled: true,
     autoplay: true,
-    musicUrl: "YOUR_CLOUDINARY_URL_HERE", // Paste your URL here
+    musicUrl: "https://res.cloudinary.com/dfz3pwe3l/video/upload/v1770874465/Tahanan_c_El_Manu_Official_Audio_kbovoy.mp3", // Paste your URL here
     startText: "🎵 Play Music",
     stopText: "🔇 Stop Music",
     volume: 0.5
